@@ -9,7 +9,7 @@ import (
 	"github.com/gorilla/websocket"
 	"k8s.io/client-go/tools/remotecommand"
 
-	"github.com/1179325921/kubeutil/webshell"
+	"github.com/1179325921/container-shell/webshell"
 )
 
 var upgrader = websocket.Upgrader{}

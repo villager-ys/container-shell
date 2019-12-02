@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/1179325921/kubeutil/controllers"
+	"github.com/1179325921/container-shell/controllers"
 
 	v1 "k8s.io/api/core/v1"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"

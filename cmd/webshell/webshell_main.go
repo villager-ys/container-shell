@@ -13,10 +13,10 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
 
-	"github.com/1179325921/kubeutil/kube"
-	"github.com/1179325921/kubeutil/utils"
-	"github.com/1179325921/kubeutil/webshell"
-	"github.com/1179325921/kubeutil/webshell/wsterminal"
+	"github.com/1179325921/container-shell/kube"
+	"github.com/1179325921/container-shell/utils"
+	"github.com/1179325921/container-shell/webshell"
+	"github.com/1179325921/container-shell/webshell/wsterminal"
 )
 
 var (

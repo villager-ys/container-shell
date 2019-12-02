@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/1179325921/kubeutil/cmd/controllers/app"
+	"github.com/1179325921/container-shell/cmd/controllers/app"
 )
 
 func main() {
