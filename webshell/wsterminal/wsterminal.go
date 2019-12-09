@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"time"
 
 	"github.com/gorilla/websocket"
 	"k8s.io/client-go/tools/remotecommand"
@@ -12,7 +13,9 @@ import (
 	"github.com/1179325921/container-shell/webshell"
 )
 
-var upgrader = websocket.Upgrader{}
+var upgrader = websocket.Upgrader{
+	HandshakeTimeout: 5 * time.Minute,
+}
 
 // TerminalSession implements PtyHandler
 type TerminalSession struct {
